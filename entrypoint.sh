@@ -1,5 +1,3 @@
-#!/bin/sh -l
+#!/bin/sh
 
-echo "Hello "
 echo $RUNNER_ARCH
-echo "::set-output name=time::$time"
