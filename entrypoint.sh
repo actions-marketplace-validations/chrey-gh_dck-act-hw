@@ -1,5 +1,5 @@
 #!/bin/sh -l
 
 echo "Hello "
-time=$(date)
+echo $RUNNER_ARCH
 echo "::set-output name=time::$time"
