@@ -1,5 +1,5 @@
 # Container image that runs your code
-FROM apline:3.10
+FROM amd64/alpine
 
 RUN apk add git
 
