@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: cmrhello
-        uses: chrey-gh/dck-act-hw@v1
+        uses: actions/dck-act-hw@v1
         with:
           who-to-greet: 'Knoedel the doedel'
       # Use the output from the `hello` step
