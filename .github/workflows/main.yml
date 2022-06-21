@@ -8,9 +8,12 @@ jobs:
     steps:
       - name: Hello world action step
         id: cmrhello
-        uses: actions/dck-wct-hw
+        uses: chrey-gh/dck-wct-hw@v1
         with:
           who-to-greet: 'Knoedel the doedel'
       # Use the output from the `hello` step
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
+
+
+
